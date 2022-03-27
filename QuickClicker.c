@@ -21,7 +21,8 @@ int main()
 Please enter the frequency you need (unit: ms).");
     scanf("%llu",&a);
     getchar();
-    puts("OK, input 'OK' to choose position of your mouse.");
+    puts("OK, please move your mouse to someplace you wanna click, "
+         "and then input 'OK' to continue");
     LOCK:
     gets(s);
     if(z_strcmp(s,"OK"))
